@@ -73,4 +73,4 @@ fun main(args: Array<String>)
 ```
 
 ## Example Images
-![example1](/images/example1.png = 200x200)
+![example1](/images/example1.png =200x200)
