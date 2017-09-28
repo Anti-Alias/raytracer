@@ -1,4 +1,4 @@
-#KTracer
+# KTracer
 
 This page is dedicated to giving a top-down view of the project as a whole.
 KTracer is a ray-tracing API which is capable of rendering photo-realistic images.
@@ -6,7 +6,7 @@ While many implementations of ray-tracers are implemented in low-level programmi
 Source code located here.
 
 
-##Utilizing
+## Utilizing
 To include in your build, be sure to reference it in your build file.
 Gradle:
 compile group: 'org.velociraptors', name: 'ktracer', version: '1.0.0'
