@@ -6,10 +6,14 @@ While many implementations of ray-tracers are implemented in low-level programmi
 Source code located here.
 
 
+
+
 ## Utilizing
 To include in your build, be sure to reference it in your build file.
 Gradle:
+```
 compile group: 'org.velociraptors', name: 'ktracer', version: '1.0.0'
+```
 
 Example Code
 import org.velociraptors.ktracer.scene.*
