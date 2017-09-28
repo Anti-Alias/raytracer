@@ -1,0 +1,25 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SceneObject.intersect - raytracer</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">raytracer</a>&nbsp;/&nbsp;<a href="../index.html">ktracer</a>&nbsp;/&nbsp;<a href="index.html">SceneObject</a>&nbsp;/&nbsp;<a href=".">intersect</a><br/>
+<br/>
+<h1>intersect</h1>
+<a name="ktracer.SceneObject$intersect(ktracer.math.Vec3, ktracer.math.Vec3)"></a>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">intersect</span><span class="symbol">(</span><span class="identifier" id="ktracer.SceneObject$intersect(ktracer.math.Vec3, ktracer.math.Vec3)/rayOrigin">rayOrigin</span><span class="symbol">:</span>&nbsp;<a href="../../ktracer.math/-vec3/index.html"><span class="identifier">Vec3</span></a><span class="symbol">, </span><span class="identifier" id="ktracer.SceneObject$intersect(ktracer.math.Vec3, ktracer.math.Vec3)/rayDirection">rayDirection</span><span class="symbol">:</span>&nbsp;<a href="../../ktracer.math/-vec3/index.html"><span class="identifier">Vec3</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../-intersection/index.html"><span class="identifier">Intersection</span></a><span class="symbol">?</span></code>
+<p>Attempts to solves for an intersection between
+a ray and this SceneObject.</p>
+<h3>Parameters</h3>
+<p><a name="rayOrigin"></a>
+<code>rayOrigin</code> - Origin of the ray being casted.</p>
+<p><a name="rayDirection"></a>
+<code>rayDirection</code> - Direction of the ray being casted.</p>
+<p><strong>Return</strong><br/>
+Intersection that was found, or null when there was no intersection.
+No intersection should be returned when this object is behind the ray.
+For instance, if t &lt; 0.</p>
+</BODY>
+</HTML>
