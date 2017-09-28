@@ -73,4 +73,4 @@ fun main(args: Array<String>)
 ```
 
 ## Example Images
-![example1](/images/example1.png =200x200)
+<img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example1.png" width="400" height="790">
