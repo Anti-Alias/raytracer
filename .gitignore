@@ -1,4 +1,11 @@
-build
+build/classes
+build/distributions
+build/kotlin
+build/kotlin-build
+build/kotlin-classes
+build/libs
+build/scripts
+build/tmp
 .gradle
 *.iml
 .idea
