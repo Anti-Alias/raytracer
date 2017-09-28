@@ -73,6 +73,4 @@ fun main(args: Array<String>)
 ```
 
 ## Example Images
-<img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example1.png" width="300" height="200">
-<img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example2.jpg" width="300" height="200">
-<img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example3.jpg" width="300" height="200">
+<img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example1.png" width="300" height="200"> <img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example2.jpg" width="300" height="200"> <img src="https://raw.githubusercontent.com/Anti-Alias/raytracer/master/images/example3.jpg" width="300" height="200">
