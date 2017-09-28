@@ -11,7 +11,7 @@ Source code located here.
 ## Utilizing
 To include in your build, be sure to reference it in your build file.
 Gradle:
-```
+```groovy
 compile group: 'org.velociraptors', name: 'ktracer', version: '1.0.0'
 ```
 
